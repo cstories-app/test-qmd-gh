@@ -4,8 +4,14 @@ title: "test-qmd"
 
 This is a Quarto website.
 
+```{r}
+mtcars
+write.csv(mtcars, "test_mtcars.csv")
+```
+
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 1
 ```
+
